@@ -15,9 +15,8 @@ To build and run the sample from a fresh clone of this repo:
 
 ## Build and run the sample
 
-1. `mvnw package`
-3. `java -jar target/TodoDemo-0.0.1-SNAPSHOT.jar`
-3. Open a web browser to http://localhost:8080
+1. Build war: `mvnw package`
+2. Deploy to Azure using a deployment mechanism of your choice
 
 As you add and update tasks in the app you can verify the changes in the database through the MySQL console using simple statements like 
 `select * from todo_item`.
